@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado pacientes</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Centro medico Backend</h1>
+    </header>
+    <main>
+        <h2>Listado pacientes</h2>
+        <table id="contenidoPacientes" border="2">
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Número de Cédula</th>
+                    <th>Edad</th>
+                    <th>Telefono</th>
+                    <th>Especialidad</th>
+                    <th>Medico</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpoTablaPacientes">
+
+            </tbody>
+        </table>
+            <input type="button" onclick="CambiarDatos" value="Cambiar Datos">
+            <a href="../index.html"><input type="button" value="Volver"></a>
+    </main>
+        <footer>
+            <h2 class="titulo-final">&copy; GmC Desing | German Moreno</h2>
+        </footer>
+        <script src="../js/appPacientes.js"></script>
+</body>
+</html>

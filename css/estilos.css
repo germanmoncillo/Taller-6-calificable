@@ -6,8 +6,11 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
 	body{
-		background: url(../image/bosque-congelado_1920x1080_xtrafondos.com.jpg);
+		background: url(../image/Stanford_SingleImage_09.jpg);
 		background-repeat: no-repeat;
+		min-height: 100vh;
+		padding-bottom: 3em;
+
 	}
 	.capa{
 		position: fixed;
@@ -128,7 +131,10 @@
         height: 60px;
         
     }
-    
+    footer h2{
+		text-align: center;
+		color: white;
+	}
     footer p {
         text-align: center;
     }
@@ -155,7 +161,7 @@
         margin: auto;
     }
     
-    label {
+    label {		
         display: block;
         margin-bottom: 5px;
         font-weight: bold;
@@ -176,7 +182,9 @@
     
     input[type="submit"],
     input[type="button"] {
-        background-color: #4CAF50;
+		align-items: center;
+		width: 100px;
+        background-color: #04347b;
         color: white;
         border: none;
         border-radius: 4px;
@@ -186,7 +194,7 @@
         font-family: sans-serif;
         transition: background-color 0.3s ease;
     }
-    
+	
     input[type="submit"]:hover {
         background-color: #3e8e41;
     }
@@ -242,3 +250,6 @@
     .listado-servicios li::marker {
         content: 🐾;
     }
+.form .registroMedicos{
+	width:60%
+}

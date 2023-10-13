@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+	body{
+		background: url(../image/Stanford_SingleImage_09.jpg);
+		background-repeat: no-repeat;
+        align-items: center;
+        color: white;
+        position: relative;
+        padding-bottom: 3em;
+        min-height: 100vh;
+
+	}
+    .capa{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0,0,0,0.6);
+		z-index: -1;
+		top: 0;left: 0;
+	}
+    h1{
+        color: white;
+        text-align: center;
+    }
+    main{
+        color: white;
+        text-align: center;
+    }
+
+    .contenedor_Formulario{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    input,
+    select {
+        display:block;
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        font-size: 16px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    
+    input[type="submit"],
+    input[type="button"] {
+		align-items: center;
+		width: 100px;
+        background-color: #04347b;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-family: sans-serif;
+        transition: background-color 0.3s ease;
+        transform: translate(100%,100%)
+    }
+	
+    input[type="submit"]:hover {
+        background-color: hsla(168, 60%, 67%, 0.787);
+    }
+
+    footer{
+        text-align: center;
+        padding: 1em 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }

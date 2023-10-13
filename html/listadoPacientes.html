@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listado pacientes</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estiloListas.css">
 </head>
 <body>
     <header>
-        <h1>Centro medico Backend</h1>
+        <h1>Centro Medico Stanford</h1>
     </header>
     <main>
-        <h2>Listado pacientes</h2>
+        <h2>Listado pacientes</h2> <br>
+        <img src="../image/escudo.png" width="80px">
         <table id="contenidoPacientes" border="2">
             <thead>
                 <tr>
@@ -25,14 +26,16 @@
                 </tr>
             </thead>
             <tbody id="cuerpoTablaPacientes">
-
             </tbody>
         </table>
-            <input type="button" onclick="CambiarDatos" value="Cambiar Datos">
             <a href="../index.html"><input type="button" value="Volver"></a>
     </main>
+    <div class="capa"></div>
         <footer>
             <h2 class="titulo-final">&copy; GmC Desing | German Moreno</h2>
+            <audio autoplay>
+                <source src="../image/leva-eternity-149473.mp3" type="audio/mp3">
+            </audio>
         </footer>
         <script src="../js/appPacientes.js"></script>
 </body>

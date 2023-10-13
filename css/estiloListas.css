@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+	body{
+		background: url(../image/Stanford_SingleImage_09.jpg);
+		background-repeat: no-repeat;
+		min-height: 100vh;
+		padding-bottom: 3em;
+        color: white;
+        text-align: center
+	}
+	.capa{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0,0,0,0.6);
+		z-index: -1;
+		top: 0;left: 0;
+	}
+    footer{
+        text-align: center;
+        padding: 1em 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+#tablaDatos{
+    margin: 150px auto;
+    width: 600px;
+    width: 70%;
+}
+#contenidoPacientes{
+    margin: 150px auto;
+    width: 600px;
+    width: 70%;
+}
+table th {
+    background-color:#313038;
+    border-bottom: solid 5px #aa0400;
+}
+tr:hover td {
+    background-color: #1a3731;
+}
+input[type="button"] {
+    align-items: center;
+    width: 100px;
+    background-color: #04347b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+    transform: translate(0,100%)
+}
